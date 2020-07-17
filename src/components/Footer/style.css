@@ -1,8 +1,10 @@
 .footer {
 	margin: 0 auto;
+	margin-top: 400px;
 	text-align: center;
 
-	background-color: #ccc;
+	background-color: rgb(247, 242, 242);
+	color: #000;
 }
 
 .footer-text {

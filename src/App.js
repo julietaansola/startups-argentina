@@ -25,8 +25,8 @@ class App extends React.Component {
 			<div className="wrapper">
 				<Navbar getData={(inputValue) => this.handleData(inputValue)} />
 				<Cards filter={inputValue} className="cards" />
-				<Footer className="footer" />
 				<Link to="/prueba">Ir a prueba</Link>
+				<Footer className="footer" />
 			</div>
 		);
 	}

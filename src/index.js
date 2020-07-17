@@ -19,11 +19,3 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
-
-//Router > Su unica funcion es englobar a TODAS las rutas. Inicio y fin de rutas en una aplicacion. ROUTE es para especificar las rutas
-
-/*
-    <Route path="/" component={App} />  path="/" < Ruta inexacta
-Todos los componentes que utilizamos como pages, van en pages.
-Todos los componentes que utilizamos a lo largo del prjecto van en components
- */

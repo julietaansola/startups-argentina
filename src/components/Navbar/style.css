@@ -2,7 +2,7 @@
 	padding: 10px;
 	display: flex;
 	justify-content: space-between;
-	background-color: #f3f3f3;
+	background-color: #3a3939;
 	margin-bottom: 20px;
 }
 
@@ -12,18 +12,25 @@
 
 h1 {
 	text-transform: uppercase;
+	color: #fff;
+	margin-left: 200px;
+	font-size: 28px;
+	margin-top: 6px;
 }
 
 .input {
 	padding: 10px 15px;
-	background-color: #aaaaaa;
+	background-color: #aaa;
 	margin-left: 35px;
 	border-radius: 10px;
 }
 
 .button {
-	background-color: #aaaaaa;
+	background-color: #3a3939;
+	color: #fff;
 	border: none;
 	padding: 10px;
 	border-radius: 10px;
+	margin-right: 150px;
+	font-size: 18px;
 }

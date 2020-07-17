@@ -17,7 +17,7 @@ class Navbar extends React.Component {
 						className="input"
 						onChange={(e) => this.handleChange(e)}
 						type="text"
-						placeholder="Agregar Startup"
+						placeholder="Buscar Startup"
 					></input>
 				</div>
 				<Link to="/agregarstartup">

@@ -1,10 +1,17 @@
-.wrapper .form-container {
+body {
+	background-color: rgb(247, 242, 242);
+	box-sizing: border-box;
+}
+.form-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 300px;
-	margin: 0 auto;
-	height: 100vh;
+	width: 600px;
+	margin: 0px auto;
+	padding: 50px 70px;
+	height: 95vh;
+	background-color: #fff;
+	border-radius: 5px;
 }
 
 .label {
@@ -18,9 +25,42 @@
 	padding: 10px;
 	margin-top: 10px;
 	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+textarea {
+	border: 1px solid #ccc;
+	border-radius: 5px;
 }
 
 .submit-button {
+	background-color: rgb(47, 86, 244);
+	color: #fff;
 	padding: 10px;
 	width: 100%;
+	border-radius: 5px;
+	border: none;
+}
+
+.error {
+	background-color: rgba(244, 86, 86, 0.94);
+	width: 800px;
+	margin: 20px auto;
+	height: 40px;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 5px;
+}
+.exito {
+	background-color: rgb(47, 86, 244);
+	width: 800px;
+	margin: 20px auto;
+	height: 40px;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 5px;
+}
+.text {
+	color: rgb(247, 242, 242);
 }
