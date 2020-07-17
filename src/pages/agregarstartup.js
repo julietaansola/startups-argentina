@@ -19,7 +19,7 @@ class AgregarStartup extends React.Component {
 		const { name, value } = e.target;
 
 		this.setState({
-			[name]: value,
+			[name]: value, //!actualizacion dinamica del estado, se usa [], xq si no uso [] busca la clave name, con [] usa la variale namae= name/ name=logo, etc// para esto cada input debe tener 'name'
 		});
 	}
 
